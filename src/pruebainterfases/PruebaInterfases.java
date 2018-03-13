@@ -18,6 +18,8 @@ public class PruebaInterfases {
         // TODO code application logic here
         PorPagar arreglo[]=new PorPagar[4];
         arreglo[0]=new Factura ("01234","asiento",2,375.00);
+        arreglo[1]=new Factura ("56789","llanta",4,79.95);
+        arreglo[2]=new EmpleadoAsalariado("Carlos","Pano","1234-56789",800);
     }
     
 }
