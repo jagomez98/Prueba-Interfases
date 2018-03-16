@@ -59,4 +59,10 @@ public class Factura implements PorPagar{
         return this.cantidad*this.precioArticulo;
     }
     
+    @Override
+    public String toString(){
+        return "factura:\n"+"número de pieza: "+ this.numeroPieza+"\n"
+                +"descripcion: "+this.descripcion+"\n"+"cantidad: "+this.cantidad
+                +"\n"+"precio: "+this.precioArticulo+"\n";
+    }
 }

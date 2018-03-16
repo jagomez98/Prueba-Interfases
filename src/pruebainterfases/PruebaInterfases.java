@@ -20,6 +20,12 @@ public class PruebaInterfases {
         arreglo[0]=new Factura ("01234","asiento",2,375.00);
         arreglo[1]=new Factura ("56789","llanta",4,79.95);
         arreglo[2]=new EmpleadoAsalariado("Carlos","Pano","1234-56789",800);
+        arreglo[3]=new EmpleadoAsalariado("Fernanda","Margarita","0000-0010",100);
+        
+        for(PorPagar x:arreglo){
+            System.out.printf("%n%s %n%s: $%,.2f%n",x.toString(),"cantidad por pagar"
+            ,x.obtenerMontoPago());
+        }
     }
     
 }
